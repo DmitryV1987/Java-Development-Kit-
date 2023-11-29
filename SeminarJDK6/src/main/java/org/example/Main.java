@@ -28,7 +28,7 @@ class MontyHallParadox {
         HashMap<Integer, String> results = new HashMap<>();
 
         // Проводим эксперименты много раз и считаем вероятности
-        int trials = 1000000;
+        int trials = 1000;
         for (int i = 0; i < trials; i++) {
             // Ваш первоначальный выбор
             int choice = random.nextInt(numberOfDoors);
